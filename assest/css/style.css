@@ -1,0 +1,740 @@
+
+/* =========== Template Information Start =========== */
+/* 
+Template Name: Aytor
+Author: Aytor
+Version: 1.0.0
+Designed By: Aytor
+Developed By:
+Author URI: 
+Description:  Aytor is a clean and modern responsive HTML5 template with powerful features.
+*/
+/* =========== Template Information End =========== */
+
+/* =========== Table of Content Start =========== */
+/* 
+0.0) Common Section CSS
+============================================
+0.1) Header Area
+    0.1.1) Tob Bar
+    0.1.2) Nav Bar
+0.2) Page Heading
+0.3) Features
+0.4) Footer
+0.5) Copyright
+0.6) Product Card
+1.Home Page Css
+============================================
+1.1) Banner
+1.2) Featured Category
+1.3) New Arrivals Products
+1.4) Discount Ads Banner
+1.5) Best Sellers Product
+1.6) Deals of the Day
+1.7) Special Offer
+1.8) Latest News
+*/
+/* =========== Table of Content End =========== */
+:root {
+    --text-color: #11161e;
+    --hover-dark-color: #151a32;
+    --light-color: #ffffff;
+    --dark-color: #000000;
+    --primary-color-light: #ff6f61;
+    --primary-color-dark: #ff5645;
+    --paragraph-color: #444444;
+    --bg-color-light: #f1f1f1;
+    --bg-color-dark: #f1f3f4;
+    --border-color: #8c8c8c;
+    --box-shadow-22: 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+    --box-shadow-32: 0 0 50px 0 rgba(21, 26, 50, 0.1);
+    --box-shadow-42: 0 5px 30px 0 rgba(17, 22, 30, 0.08);
+    --primary-font: "Josefin Sans", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
+body {
+    font-family: var(--body-font);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+    font-family: var(--primary-font);
+}
+/* =========== Tob Bar Section Css Start =========== */
+#top_bar {
+    background-color: var(--hover-dark-color);
+    color: var(--light-color);
+    padding: 11px;
+}
+#top_bar .top_bar_left p {
+    font-size: 16px;
+    line-height: 28px;
+}
+#top_bar .top_bar_left p i,
+#top_bar .top_bar_left p span:last-child {
+    color: var(--primary-color-light);
+}
+#top_bar .top_bar_left p span:first-child {
+    text-transform: uppercase;
+}
+#top_bar .top_bar_right ul.social_icon li a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 10px;
+    color: var(--light-color);
+    transition: 0.4s;
+}
+#top_bar .top_bar_right ul:first-child li {
+    padding: 0 20px;
+    border-right: 1px solid var(--border-color);
+}
+#top_bar .top_bar_right ul:first-child li a {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--light-color);
+    transition: 0.4s;
+}
+#top_bar .top_bar_right ul:first-child li:hover a {
+    color: var(--primary-color-light);
+}
+#top_bar .top_bar_right ul:first-child li select {
+    background: none;
+    color: var(--light-color);
+    border: none;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+}
+#top_bar .top_bar_right ul:first-child li select option {
+    background-color: var(--light-color);
+    color: var(--text-color);
+}
+#top_bar .top_bar_right ul.social_icon {
+    margin-left: 20px;
+}
+#top_bar .top_bar_right ul.social_icon li:hover a {
+    color: var(--primary-color-light);
+}
+/* =========== Tob Bar Section Css End =========== */
+/* =========== Nav Bar Section Css Start =========== */
+#nav #primary_nav ul li a {
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: capitalize;
+    padding: 37px 21.5px;
+    color: var(--text-color);
+    transition: 0.4s;
+}
+#nav #primary_nav ul li:hover a {
+    color: var(--primary-color-dark);
+}
+#nav #primary_nav ul li button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: var(--hover-dark-color);
+    cursor: pointer;
+    padding: 37px 10px;
+    transition: 0.4s;
+    position: relative;
+}
+#nav #primary_nav ul li:hover a,
+#nav #primary_nav ul li button:hover {
+    color: var(--primary-color-dark);
+}
+#nav #primary_nav ul li button span {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 21px);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: var(--primary-color-light);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: var(--light-color);
+}
+/* =========== Nav Bar Section Css End =========== */
+
+/* BANNER SECTION START  */
+#banner {
+
+    background-image: url(../image/Mask\ herebanner-image.png);
+    background-position: center;
+     background-size: cover;
+    background-repeat: no-repeat;
+    padding: 241px 0 281px 0;
+}
+#banner h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--dark-color);
+    
+}
+#banner h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: var(--dark-color);
+    line-height: 74px;
+    padding: 15px 0;
+}
+#banner p{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark-color);
+    line-height: 18px;
+    padding-bottom: 29px;
+}
+#banner button.btn{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--light-color);
+    line-height: 30px;
+
+}
+#banner button{
+    padding: 13px 38px;
+    background-color:var(--primary-color-light);
+    font-weight: 600;
+
+}
+#banner button.btn i{
+    padding-left: 10px;
+}
+/* BANNER SECTION END */
+/* =========== Hero Section Css Start =========== */
+#hero {
+    padding: 0 80px;
+}
+#hero .hero_single_slider {
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+#hero .hero_single_slider::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, rgba(2, 5, 19, 0.7) 0%, rgba(2, 4, 17, 0.6175) 22%, rgba(1, 4, 15, 0.5484) 38%, rgba(1, 3, 13, 0.4834) 50%, rgba(0, 0, 0, 0) 100%);
+    z-index: -1;
+}
+/* =========== Hero Section Css End =========== */
+/* Feature product section start */
+#products .row{
+    padding: 84px 0;
+}
+#products .product_card{
+    position: relative;
+}
+#products .product_card .overlay a{
+    color: var(--light-color);
+}
+#products .product_card .overlay a i{
+    padding-left: 5px;
+}
+#products .product_card .overlay{
+    position: absolute;
+    inset:20px;
+    background: rgba(17, 22, 30, 0.5);
+    color:var(--light-color);
+    cursor: pointer;
+    transform: scale(0);
+    transition: .4s;
+}
+#products .product_card .card1 .overlay{
+    left: 500px;
+}
+#products .product_card:hover .overlay{
+    transform: scale(1);
+    cursor: pointer;
+}
+/* Feature product section end */
+
+
+
+
+
+/* PRODUCT SECTION Css START */
+/*#products .product_card{
+    position: relative;
+}
+#products .product_card .overlay {
+    position: absolute;
+    inset: 20px;
+    background-color: rgba(17, 22, 30, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#products .product_card .card .overlay{
+    left: 500px;
+}
+#products.product_card:hover .overlay{
+    transform: scale(1);
+    cursor: pointer;
+}
+/* =========== Product Section Css End =========== */
+
+/* Arrivals section start */
+#arriaval .container h1{
+    font-size:36px ;
+    font-weight: 800;
+    line-height:46px ;
+    color:var(--text-color) ;
+    text-align: center;
+    margin: 112px 0 24px 0;
+}
+#arriaval .container .arrivals_card p{
+    font-size:16px ;
+    line-height:26px ;
+    color:var(--paragraph-color) ;
+    padding: 24px 0 5px 0;
+}
+#arriaval .container .arrivals_card h4{
+    font-size:18px ;
+    line-height:28px ;
+    color:var(--text-color) ;
+    font-weight: 600;
+}
+#arriaval .container .arrivals_card i{
+    font-size:12.31px ;
+    color:var(--primary-color-light) ;
+    padding: 6px 0 26px 0;
+}
+
+#arriaval .container .arrivals_card{
+    gap: 24px;
+}
+#arriaval .container .arrivals_card .card_info{
+    background-color:var(--light-color);
+    border: 1px solid var(--bg-color-light);
+}
+#arriaval .container .arrivals_card {
+    position: relative;
+}
+#arriaval .container .arrivals_card .overlay i{
+    background-color: var(--light-color);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+#arriaval .container .arrivals_card  span{
+    text-align: center;
+    color: var(--light-color);
+    background-color: var(--primary-color-light);
+    width: 52px;
+    height: 25px;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    top: 10px;
+}
+#arriaval .container .arrivals_card .overlay i:hover{
+    background-color: var(--primary-color-light);
+    color: var(--light-color);
+}
+#arriaval .container .arrivals_card .overlay{
+    position: absolute;
+    top:40px;
+    right: 25px;
+    transform: scale(0);
+    transition: .4s;
+    cursor: pointer;
+    background-color: var();
+}
+#arriaval .container .arrivals_card:hover .overlay{
+    transform: scale(1);
+}
+/* Arrivals section End */
+/* DISCOUNT SECTION START */
+#discount{
+    background-image: url(../image/Mask\ herediscount\ img-00.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 100px 0 373px 0;
+}
+#discount .container{
+    padding: 103px 0;
+}
+#discount .discount_banner h3{
+    font-size:36px ;
+    font-weight: 800;
+    line-height:46px ;
+    color:var(--light-color) ;
+}
+#discount .discount_banner p{
+    font-size:16px ;
+    line-height:28px ;
+    color:var(--light-color) ;
+    padding: 10px 0 30px 0;
+}
+#discount .discount_banner button{
+    padding: 13px 34px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--light-color);
+}
+#discount .discount_banner button i{
+    padding-left: 10px;
+}
+/* DISCOUNT SECTION END */
+/* ALL PRODUCT LIST SECTION START */
+#product_list{
+    margin: 40px 0 86px 0;
+}
+#product_list .overlay h5{
+   font-size:18px ;
+   font-weight:600 ;
+   line-height: 28px;
+   color:var(--text-color) ;
+   padding-top: 35px;
+}
+#product_list .overlay h1{
+    font-size:36px ;
+    font-weight:700 ;
+    line-height: 46px;
+    color:var(--text-color) ;
+    padding: 10px 0 16px 0;
+}
+#product_list .overlay p{
+    font-size:16px ;
+    line-height: 28px;
+    color:var(--paragraph-color) ;
+    padding-bottom: 19px;
+}
+#product_list .overlay h6{
+    font-size:20px ;
+    line-height: 30px;
+    font-weight: 600;
+    color:var(--text-color) ;
+    padding-bottom: 30px;
+}
+#product_list .overlay h6 del{
+    color: var(--paragraph-color);
+}
+#product_list .overlay button{
+    font-size:16px ;
+    line-height:28px;
+    font-weight: 600;
+    color:var(--light-color) ;
+    padding: 13px 27px;
+    background-color: var(--hover-dark-color);
+    border: none;
+}
+#product_list .overlay button i{
+    padding-left: 5px;
+}
+#product_list .product_list{
+    position: relative;
+}
+#product_list .overlay{
+   position: absolute;
+   top: 0;
+   left: 40px;
+}
+
+#product_list button.slide_btn{
+    padding: 13px 27px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--light-color);
+    background-color: var(--primary-color-light);
+    margin-top: 20px;
+    margin-left: 45%;
+}
+#product_list button i{
+    padding-left: 10px;
+}
+/* ALL PRODUCT LIST SECTION END */
+/* EXPLORE SECTION START */
+#explore{
+    background-color: var(--bg-color-dark);
+}
+#explore .container{
+    padding: 115px 0 85px;
+}
+#explore .explore_info h6{
+    font-size:16px ;
+    line-height: 26px;
+    color:var(--paragraph-color) ;
+    padding-bottom: 10px;
+    padding-top: 115px;
+
+}
+#explore .explore_info h3{
+    font: size 36px ;
+    line-height: 46px;
+    color:var(--text-color) ;
+    font-weight: 700;
+}
+#explore .explore_info p{
+    font: size 16px ;
+    line-height: 28px;
+    color:var(--paragraph-color) ;
+    padding: 16px 0 30px 0;
+}
+#explore .explore_info button{
+    font: size 18px ;
+    line-height: 30px;
+    color:var(--light-color) ;
+    padding: 14px 23px;
+    background-color: var(--primary-color-light);
+    border: none;
+}
+#explore .explore_info button i{
+    padding-left: 10px;
+}
+#explore .explore_video .overlay i{
+    width:60px;
+    height: 60px;
+    background: var(--light-color);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: var(--primary-color-light);
+
+}
+#explore .container .row .explore_video{
+    position: relative;
+}
+#explore .explore_video .overlay{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(248, 245, 245, 0.25);
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 110px;
+    left: 250px;
+    cursor: pointer;
+   
+}
+
+/* EXPLORE SECTION END */
+
+
+
+/* =========== Promotion Section Css Start =========== */
+#promotion {
+    transform: translateY(50%);
+}
+#promotion .container {
+    background-color: var(--light-color);
+    box-shadow: var(--box-shadow-32);
+    padding: 30px 0;
+}
+#promotion .promotion_card {
+    border-right: 4px solid var(--primary-color-light);
+    /* padding: 21px 0; */
+}
+.promotion_card_info{
+    padding: 0 0 0 15px;
+}
+#promotion .promotion_card:last-child {
+    border-right-color: transparent;
+}
+#promotion .promotion_card .promotion_card_img {
+    width: 70px;
+    height: 70px;
+    background-color: var(--primary-color-light);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    /* margin-right: 10px; */
+}
+/* =========== Promotion Section Css End =========== */
+
+/* =========== Footer Section Css Start =========== */
+#footer {
+    background-color: var(--text-color);
+    padding-top: 150px;
+}
+#footer .footer_upper {
+    padding-bottom: 70px;
+    border-bottom: 1px solid var(--bg-color-light);
+}
+#footer .social_icon ul {
+    gap: 10px;
+}
+#footer .social_icon ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color-light);
+    font-size: 24px;
+    color: var(--paragraph-color);
+    background-color: var(--light-color);
+    text-align: center;
+    line-height: 40px;
+    transition: 0.4s;
+}
+#footer .social_icon ul li a:hover {
+    color: var(--light-color);
+    background-color: var(--primary-color-light);
+}
+/* =========== Footer Section Css End =========== */
+
+.footer-info-single {
+     margin-top: 30px;
+     
+ }
+.footer-info-single .title {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 16px;in
+    border-left: 4px solid #b78c33;
+    padding-left: 5px;
+ }
+.footer-info-single ul li a {
+   /* display: block;*/
+    color: #aaa;
+    padding: 2px 0; 
+}
+.footer-info-single ul li a:hover {
+    color: #b78c33;
+ }
+.footer-info-single p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #aaa; 
+}
+
+.newsletter{
+    padding: 80px;
+    background-color: #ff5645;
+}
+
+.newsletter .content{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.newsletter .content h5{
+    margin-bottom: 50px;
+    color: ;
+}
+
+/* promotion section end */
+
+
+/* FOOTER AREA SECTION START */
+  /* Footer upper section start */
+  #footer{
+    background: var(--text-color);
+    padding-top: 150px;
+  }
+#footer .footer_uppper{
+  padding-bottom:70px ;
+  border-bottom: 1px solid var(--bg-color-light) ;
+}
+#footer .social_icon ul li a {
+  display: inline-block;
+  font-size:24px ;
+  width: 40px;
+  height: 40px;
+  background: var(--light-color);
+  color: var(--paragraph-color);
+  text-align: center;
+  line-height: 40px;
+  transition: .4s;
+}
+#footer .social_icon ul{
+  gap: 10px;
+}
+#footer .social_icon ul li:hover a{
+  background-color: var(--primary-color-light);
+  color: var(--light-color);
+}
+/* Footer upper section end */
+
+/* Footer lower section start */
+#footer .footer_lower{
+  padding: 70px 0;
+}
+#footer .footer_lower h3{
+ font-size:24px ;
+ line-height:34px ;
+ color:var(--light-color) ;
+ font-weight: 800;
+ padding-bottom: 22px;
+}
+#footer .footer_lower li a,
+#footer .footer_lower li,
+#footer .footer_lower p
+{
+  font-size:16px ;
+  line-height:28px ;
+  color:var(--light-color) ;
+  cursor: pointer;
+  transition: .4s;
+}
+#footer .footer_lower ul li i{
+  color: var(--primary-color-light);
+  font-size: 24px;
+  padding-right: 10px;
+}
+ #footer .footer_lower li:hover a,
+ #footer .footer_lower li:hover{
+  color: var(--primary-color-light);
+ }
+#footer .footer_lower .footer_info form input{
+padding: 11px 56px 11px 10px;
+}
+#footer .footer_lower .footer_info form input::placeholder{
+  font-size: 16px;
+     color: var(--paragraph-color);
+
+ }
+ #footer .footer_lower .footer_info form .btn{
+  padding:12px 17px;
+  background-color: var(--primary-color-light);
+  color: var(--light-color);
+ }
+/* Footer lower section end */
+
+
+/* Copy right section start */
+#footer .footer_bottom{
+    color: var(--light-color);
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    background-color: #32363e;
+    padding: 21px 0;
+  }
+  #footer .footer_bottom span{
+      color: var(--primary-color-light);
+  }
+  /* Copy right section end */
+
+    
+
+
+
+
